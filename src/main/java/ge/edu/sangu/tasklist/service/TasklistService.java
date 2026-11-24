@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class TasklistService {
 
-    private static final String CMD_COMMAND = "tasklist /FO \"CSV\" /NH";
+    private static final String CMD_COMMAND = "tasklister /FO \"CSV\" /NH";
     private static final ProcessBuilder PROCESS_BUILDER = new ProcessBuilder("cmd.exe", "/c", CMD_COMMAND);
 
     {
